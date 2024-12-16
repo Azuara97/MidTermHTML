@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 14px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-align: center;
+}
+
+body{
+    background-image: url("../imagens/banner/1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #363636;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    box-shadow: 1px 8px 10px #000000;
+    color: #ffffff;
+}
+
+header h1{
+    float: left;
+    font-size: 15px;
+    padding: 10px;
+}
+
+header nav{
+    float: right;
+}
+
+header a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: -7px;
+    padding: 12px 20px;
+    transition: background-color 0.5s;
+}
+header a:hover{
+    background-color: #ff2222;
+}
+
+.promo{
+    color: #ffffff;
+    font-size: 35px;
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.segmentos{
+    background-color: #ffffff;
+    margin-top: 10%;
+    padding: 50px;
+}
+
+.segmentos h1{
+    border-top: 3px solid #ff2222;
+    border-width: 2px;
+    width: 300px;
+    font-size: 35px;
+    margin-left: 37%;
+    margin-bottom: 60px;
+    padding-top: 10px;
+}
+
+.segmentos li{
+    display: inline-block;
+    width: 170px;
+    margin-left: 15px;
+}
+
+.segmentos li h2{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.segmentos li p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.platos{
+    background-color: #ffffff;
+}
+
+.platos h1{
+    border-top: 3px solid #ff2222;
+    border-width: 2px;
+    width: 150px;
+    font-size: 35px;
+    margin-left: 44%;
+    margin-bottom: 60px;
+    padding-top: 10px;
+}
+
+.platos ul{
+    margin-bottom: 30px;
+}
+
+.platos li{
+    display: inline-block;
+    margin-left: -1px;
+}
+
+.platos img{
+    width: 360px;
+    border-radius: 5px;
+}
+
+.platos p{
+    font-size: 15px;
+    padding-top: 10px;
+}
