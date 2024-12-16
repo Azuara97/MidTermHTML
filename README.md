@@ -1,4 +1,4 @@
-# MidTermHTML.github.io
+# MidTermHTML
 
 ## MidTerm Exam for HTML class
 
